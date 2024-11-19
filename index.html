@@ -26,6 +26,16 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init({
+          publicKey: oevnInQXE8qL5LnXz,
+        });
+    })();
+  </script>
 
   <!-- =======================================================
   * Template Name: Techie
@@ -52,14 +62,13 @@
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#calculator">Price calculator</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#calculator">Plans</a></li>
+          <li><a href="#team">Testimonials</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="#contact">Contact us</a>
 
     </div>
   </header>
@@ -75,7 +84,7 @@
             <h1>Empowering creators, amplifing revenue With earnfluence</h1>
             <p>We are trusted influencer marketing agency on a mission to promote brands and boost creators</p>
             <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="#contact" class="btn-get-started">Contact us</a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -164,7 +173,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Here are 6 key points to highlight our influencer marketing agency</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -175,8 +184,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <h4 class="title"><a href="#" class="stretched-link">Customizable Campaigns</a></h4>
+                <p class="description">We tailor influencer marketing strategies to meet your unique business needs, ensuring your brand's message resonates with the right audience through personalized and adaptable campaigns.</p>
               </div>
             </div>
           </div>
@@ -186,8 +195,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exa</p>
+                <h4 class="title"><a href="#" class="stretched-link">Affordable Solutions</a></h4>
+                <p class="description">We provide cost-effective influencer marketing services that deliver impactful results without breaking your budget, making high-quality influencer partnerships accessible to all brands.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -196,8 +205,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                <h4 class="title"><a href="#" class="stretched-link">Consistency in Delivery</a></h4>
+                <p class="description">Our focus is on delivering reliable and consistent results, maintaining a steady and continuous presence for your brand across social media platforms, ensuring long-term engagement and loyalty.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -206,8 +215,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                <h4 class="title"><a href="#" class="stretched-link">Wide Network of Influencers</a></h4>
+                <p class="description">We work with a diverse range of influencers across different niches and platforms, allowing us to match your brand with the perfect content creators who align with your values and goals.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -216,8 +225,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Nemo Enim</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese</p>
+                <h4 class="title"><a href="#" class="stretched-link">Data-Driven Strategies</a></h4>
+                <p class="description">Our approach is backed by analytics and insights, optimizing each campaign through performance data to maximize reach, engagement, and conversion rates, ensuring you get the best ROI.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -226,8 +235,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Eiusmod Tempor</a></h4>
-                <p class="description">Et harum quidem rerum facilis est et expedita distinctio dasa fermo lind saca</p>
+                <h4 class="title"><a href="#" class="stretched-link">End-to-End Campaign Management</a></h4>
+                <p class="description">From strategy development to influencer outreach, content creation, and final reporting, we handle every aspect of your influencer marketing campaign, letting you focus on your core business.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -238,20 +247,19 @@
 
     </section><!-- /Services Section -->
 
-    <section class="stats section accent-background">
+    <!-- <section class="stats section accent-background">
       <div class="container section-title" data-aos="fade-up">
         <h2>Brand Partners</h2>
       </div>
       <div class="slider">
         <div class="slider-images">
-          <img src="logo1.png" alt="Partner 1">
-          <img src="logo2.png" alt="Partner 2">
-          <img src="logo3.png" alt="Partner 3">
-          <img src="logo4.png" alt="Partner 4">
-          <img src="logo5.png" alt="Partner 5">
+          <img src="assets/img/brands/logo1.png" alt="Partner 1">
+          <img src="assets/img/brands/logo2.png" alt="Partner 2">
+          <img src="assets/img/brands/logo3.png" alt="Partner 3">
+          <img src="assets/img/brands/logo4.png" alt="Partner 4">
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -342,7 +350,7 @@
                 <li class="na"><i class="bi bi-x"></i> <span>Gifts and merchandise</span></li>
                 <li class="na"><i class="bi bi-x"></i> <span>Long term benifits by commission on sales</span></li>
               </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
+              
             </div>
           </div><!-- End Pricing Item -->
 
@@ -359,7 +367,7 @@
                 <li><i class="bi bi-check"></i> <span>Gifts and merchandise</span></li>
                 <li class="na"><i class="bi bi-x"></i> <span>Long term benifits by commission on sales</span></li>
               </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
+              
             </div>
           </div><!-- End Pricing Item -->
 
@@ -376,7 +384,7 @@
                 <li class="na"><i class="bi bi-x"></i> <span>Gifts and merchandise</span></li>
                 <li><i class="bi bi-check"></i> <span>Long term benifits by commission on sales</span></li>
               </ul>
-              <a href="#" class="buy-btn">Buy Now</a>
+              
             </div>
           </div><!-- End Pricing Item -->
 
@@ -462,15 +470,14 @@
     </section>/Faq Section -->
 
 
-    <section id="calculator" class="features section">
+    <!-- <section id="calculator" class="features section">
         
-      <!-- Logo and Input Field -->
+       Logo and Input Field 
       <div class="input-section">
-          <!-- Section Title -->
           <div class="container section-title" data-aos="fade-up">
             <h2>Price calculator</h2>
             <p>We provide multiple types of revenue models, here you can view the revenue you will earn through each model corresponding to the number of followers you have</p>
-          </div><!-- End Section Title -->
+          </div>
           
           <div class="input-container">
               <center><input class="calc-input" type="number" id="input-x" placeholder="Number of followers"></center>
@@ -478,9 +485,7 @@
           </div>
       </div>
 
-      <!-- Result Tiles -->
       <div class="tiles-container">
-          <!-- Tile for *0.2 -->
           <div class="result-tile">
               <h2 class="result-header">STANDARD</h2>
               <p class="description">Content is made by you, and the price is paid by the companies upfront</p>
@@ -488,20 +493,18 @@
           </div>
           
 
-          <!-- Tile for *0.5 -->
           <div class="result-tile">
               <h2 class="result-header">BARTER</h2>
               <p class="description">The company pays you for the promotion you do in the form of their products or vouchers</p>
               <p id="result0.5" class="result-description">0</p>
           </div>
 
-          <!-- Tile for *0.6 -->
           <div class="result-tile">
               <h2 class="result-header">AFFILIATE</h2>
               <p class="description">Receive a deposit and a promo code. Earn a commission on every sale you generate.</p>
               <p id="result0.6" class="result-description">0</p>
           </div>
-      </div>
+      </div> -->
       
   </section>
 
@@ -511,7 +514,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Listen the voices, who made use of the advantages provided by us</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -548,12 +551,12 @@
               <div class="testimonial-item" "="">
             <p>
               <i class=" bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                <span>Have been able to earn and make use of my social media accounts</span>
                 <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Priyanka kaul</h3>
+                <h4>Influencer &amp; Creator</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -561,12 +564,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Trustable services, what was asked was completed and served accurately without any neglect</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Rohit peterson</h3>
+                <h4>Brand Owner</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -574,12 +577,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Easy to work with and highly responsive</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>shubra gill</h3>
+                <h4>Influencer</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -587,27 +590,16 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span>Reasonable prices and earning, company tries to protect values for both the paties</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
+                <h3>Preeth Singh</h3>
                 <h4>Entrepreneur</h4>
               </div>
             </div><!-- End testimonial item -->
+
+            
 
           </div>
           <div class="swiper-pagination"></div>
@@ -625,7 +617,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Contact us to get onboarded and avail our services</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -657,24 +649,24 @@
 
           </div>
 
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <!-- <div class="col-lg-6">
+            <div id="contactForm" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required="">
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
                 </div>
 
                 <div class="col-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <input type="text" class="form-control" id="phone" emailname="phone" placeholder="phone" required="">
                 </div>
 
                 <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message" ></textarea>
                 </div>
 
                 <div class="col-12 text-center">
@@ -682,18 +674,32 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Send Message</button>
+                  <button onclick="sendMail()" >Send Message</button>
                 </div>
 
               </div>
-            </form>
-          </div><!-- End Contact Form -->
+            </div>
+          </div>End Contact Form -->
 
         </div>
 
       </div>
 
+
     </section><!-- /Contact Section -->
+    <script>
+      function sendMail() {
+        var params = {
+          from_name: document.getElementById('name').value,
+          phone_no: document.getElementById('phone').value,
+          email_id: document.getElementById('email').value,
+          message: document.getElementById('message').value,
+        }
+        emailjs.send("service_qlff64r","template_56ncwmv", params).then(function (res){
+              alert("success!!" + res.status);
+          });
+        }
+    </script>
 
   </main>
 
@@ -703,9 +709,9 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Techie</span>
+            <span class="sitename">earnfluence</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>One of the best Influencer monetization and marketing agency</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -725,7 +731,7 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
+        <!-- <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
             <li><a href="#">Web Design</a></li>
@@ -734,15 +740,15 @@
             <li><a href="#">Marketing</a></li>
             <li><a href="#">Graphic Design</a></li>
           </ul>
-        </div>
+        </div> -->
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <p>JP Nagar, Mysuru</p>
+          <p>Karnataka</p>
+          <p>India</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 7899616501</span></p>
+          <p><strong>Email:</strong> <span>ceec.innovations@gmail.com</span></p>
         </div>
 
       </div>

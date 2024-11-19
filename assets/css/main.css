@@ -108,6 +108,48 @@ h6 {
   font-weight: 600;
 }
 
+/* Set a background and padding for the section */
+.stats.section {
+  padding: 40px 0;
+  overflow: hidden; /* Hide any overflow from sliding images */
+  background-color: #f7f7f7;
+}
+
+/* Style the container for images */
+.slider {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+/* The container for the sliding images */
+.slider-images {
+  display: flex;
+  gap: 30px; /* Space between images */
+  animation: slide 20s linear infinite; /* Animation settings */
+}
+
+/* Make all logos the same size */
+.slider-images img {
+  width: 150px; /* Set a fixed width for all logos */
+  height: auto;
+  object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Keyframes for sliding effect */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
